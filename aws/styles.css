@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+#parking-status {
+    margin-top: 20px;
+    width: 80%;
+}
+
+#parking-spots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.parking-spot {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.occupied {
+    background-color: #f44336;
+    color: white;
+}
+
+.available {
+    background-color: #4CAF50;
+    color: white;
+}
